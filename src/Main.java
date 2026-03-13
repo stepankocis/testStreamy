@@ -10,7 +10,6 @@ public class Main {
         Scanner sc = new Scanner(Paths.get("diamonds.csv"));
         ArrayList<Diamond> diamonds = new ArrayList<>();
         sc.nextLine();
-        sc.nextLine();
         while (sc.hasNextLine()) {
             String line = sc.nextLine();
             line = line.replaceAll("\"", "");
